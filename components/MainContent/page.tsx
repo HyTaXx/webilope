@@ -52,7 +52,7 @@ const MainContent = () => {
                     className="text-2xl lg:text-4xl font-bold text-white"
                     id="infos"
                 >
-                    Let's talk in depth about Antelopes
+                    Lets talk in depth about Antelopes
                 </h2>
                 <p className="text-white lg:w-[800px] text-center">
                     Antelopes are a group of herbivorous mammals of the family
