@@ -28,25 +28,25 @@ const Hero = () => {
             </div>
             <div className="p-10">
                 <div className="grid grid-cols-3 grid-rows-4 gap-4 pt-10 lg:pt-0 h-[250px] w-[250px] lg:h-[450px] lg:w-[450px] xl:h-[600px] xl:w-[600px]">
-                    <div className="rounded-lg col-span-1 row-start-2 row-span-2 flex items-center justify-center overflow-hidden hover:shadow-2xl group">
+                    <div className="rounded col-span-1 row-start-2 row-span-2 flex items-center justify-center overflow-hidden hover:shadow-2xl group">
                         <img
                             src="/images/antelope_1.jpg"
                             alt="Image 1 of antelope"
-                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            className="w-full h-full object-cover rounded transition-transform duration-300 group-hover:scale-110"
                         />
                     </div>
                     <div className="rounded-lg col-start-3 row-start-1 row-span-2 flex items-center justify-center overflow-hidden hover:shadow-2xl group">
                         <img
                             src="/images/antelope_2.jpg"
                             alt="Image 2 of antelope"
-                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            className="w-full h-full rounded object-cover transition-transform duration-300 group-hover:scale-110"
                         />
                     </div>
                     <div className="rounded-lg col-span-2 row-start-3 row-span-2 flex items-center justify-center overflow-hidden hover:shadow-2xl group">
                         <img
                             src="/images/antelope_3.jpg"
                             alt="Image 3 of antelope"
-                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            className="w-full h-full rounded object-cover transition-transform duration-300 group-hover:scale-110"
                         />
                     </div>
                 </div>
