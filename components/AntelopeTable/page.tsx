@@ -84,22 +84,22 @@ const AntelopeTable = ({
                         .slice(0, rowsToShow)
                         .map((antelope: any, index: number) => (
                             <tr key={index}>
-                                <td className="py-2 px-4 border-b border-gray-200 font-semibold">
+                                <td className="py-2 border-b border-gray-200 font-semibold">
                                     {antelope.name}
                                 </td>
-                                <td className="py-2 px-4 border-b border-gray-200">
+                                <td className="py-2 border-b border-gray-200">
                                     {antelope.continent}
                                 </td>
-                                <td className="py-2 px-4 border-b border-gray-200">
+                                <td className="py-2 border-b border-gray-200">
                                     {antelope.weight}
                                 </td>
-                                <td className="py-2 px-4 border-b border-gray-200">
+                                <td className="py-2 border-b border-gray-200">
                                     {antelope.height}
                                 </td>
-                                <td className="py-2 px-4 border-b border-gray-200">
+                                <td className="py-2 border-b border-gray-200">
                                     {antelope.horns}
                                 </td>
-                                <td className="py-2 px-4 border-b border-gray-200">
+                                <td className="py-2 border-b border-gray-200">
                                     <img
                                         src={antelope.picture}
                                         alt={antelope.name}

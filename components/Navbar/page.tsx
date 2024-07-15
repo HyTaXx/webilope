@@ -10,7 +10,7 @@ const Page = () => {
     };
 
     return (
-        <header className="flex h-20 w-full shrink-0 bg-white lg:bg-transparent items-center fixed px-4 md:px-6">
+        <header className="flex h-20 w-[100vw] shrink-0 bg-white lg:bg-transparent items-center fixed px-4 md:px-6">
             <div className="flex items-center justify-between w-full">
                 <div className="flex items-center space-x-4">
                     <Link href="/" className="flex flex-row items-center">

@@ -27,7 +27,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="p-10">
-                <div className="grid grid-cols-3 grid-rows-4 gap-4 pt-10 lg:pt-0 h-[400px] w-[400px] lg:h-[450px] lg:w-[450px] xl:h-[600px] xl:w-[600px]">
+                <div className="grid grid-cols-3 grid-rows-4 gap-4 pt-10 lg:pt-0 h-[250px] w-[250px] lg:h-[450px] lg:w-[450px] xl:h-[600px] xl:w-[600px]">
                     <div className="rounded-lg col-span-1 row-start-2 row-span-2 flex items-center justify-center overflow-hidden hover:shadow-2xl group">
                         <img
                             src="/images/antelope_1.jpg"
